@@ -1,5 +1,4 @@
 # Finance-Lab
-#  Finance-Lab
 
 ##  Sobre o Projeto
 
