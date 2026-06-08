@@ -520,6 +520,22 @@ button {
     font-size: 0.95rem;
 }
 
+.content-grid .info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+}
+
+.content-grid .info-block ul {
+    margin: 0;
+    padding-left: 18px;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
 .final-summary {
     margin: 20px 0 0;
     padding: 16px 18px;
