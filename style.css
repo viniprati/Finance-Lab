@@ -520,20 +520,41 @@ button {
     font-size: 0.95rem;
 }
 
-.content-grid .info-block {
+.detail-page .content-grid .info-block {
     display: flex;
+    min-height: 210px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 10px;
     text-align: left;
 }
 
+.content-grid .info-block h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.content-grid .info-block p,
+.content-grid .info-block ul {
+    width: 100%;
+    color: var(--muted);
+}
+
 .content-grid .info-block ul {
     margin: 0;
-    padding-left: 18px;
-    color: var(--muted);
+    padding-left: 20px;
     font-size: 0.95rem;
+    list-style-position: outside;
+}
+
+.content-grid .info-block li {
+    margin: 0;
+    text-align: left;
+}
+
+.content-grid .info-block li + li {
+    margin-top: 6px;
 }
 
 .final-summary {
